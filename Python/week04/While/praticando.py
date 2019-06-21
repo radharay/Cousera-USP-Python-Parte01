@@ -37,3 +37,24 @@ while valor != 0:
     soma = soma + valor
 
 print("A soma dos valores digitados e: ", soma)
+
+
+#agora vamos praticar com multiplicação ao invés de soma
+
+''' 
+Precisamos mudar a variável e ela não pode iniciar por zero, ou o resultado sempre será zero.
+exemplo: produto = 1
+e a condição será o tamanho da sequência definida pelo usuário
+
+'''
+tamanho = int(input("Digite o tamanho da sequencia de números: "))
+produto = 1
+i = 0
+
+
+while i < tamanho:
+    valor = int(input("Digite um valor a ser multiplicado: "))
+    produto = produto * valor
+    i = i + 1
+
+print("A soma dos valores digitados e: ", produto)
