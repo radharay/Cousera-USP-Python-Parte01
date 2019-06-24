@@ -3,17 +3,17 @@
 # exemplo:
 
 decrescente = True
-anterior = int(input("Digite o primeiro número da sequência:"))
+anterior = int(input("Digite o primeiro número da sequência: "))
 valor = 1
 
 while valor != 0 and decrescente:
   valor = int(input("Digite o próximo numero da sequência: "))
   if valor > anterior:
-        descrecente = False
+        decrescente = False
   anterior = valor
 
 
-if descrecente:
-    print("A sequência está em ordem Decrescente :|")
+if decrescente:
+    print("A sequência está em ordem Decrescente :)")
 else:
-    print("A sequência está em ordem Crescente :)") 
+    print("A sequência não está em ordem Decrescente :(") 
