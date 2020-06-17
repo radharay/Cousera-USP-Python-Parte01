@@ -1,1 +1,1 @@
-# Cousera/USP/Python/Parte01
+# Coursera/USP/Python/Parte01
